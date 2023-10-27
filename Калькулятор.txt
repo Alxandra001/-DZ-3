@@ -1,0 +1,43 @@
+import java.util.Scanner;
+
+import static java.lang.Integer.sum;
+
+public class Main {
+    public static void main(String[] args) {;
+        Scanner scanner = new Scanner(System.in);
+While (true)
+        System.out.print("введите первое число:");
+        int a = scanner.nextInt();
+
+        System.out.println("введите второе число");
+        int b  = scanner.nextlnt();
+
+        System.out.println("введите число-действие");
+        int d = scanner.nextInt();
+
+        System.out.print("ввеите операцию (+, -, *, :");
+        char operation = scanner.next().charAt(0);
+
+        int result = 0; // переменная для хранения результата
+
+        switch (operation) {
+            case "+" : // сложения
+                result = sum(a, b);
+                break;
+            case "-" : // вычитания;
+                result = defference
+                if (b !+=+)
+        }
+
+        if (action == 1) {
+            s = a + b;
+        }else if (action == 2) {
+            result = num1 - num2;
+        }else if (action == 3) {
+            result = num1 * num2;
+        }else if (action == 4) {
+        }else {
+            System.out.println("Некорректное действие");
+            return;
+        }
+        System.out.println("Результат:" + result);
